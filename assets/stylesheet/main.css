@@ -1,0 +1,47 @@
+html{
+	background: url('http://images.cryhavok.org/d/14759-1/Black+Background+Wood+1+by+Freeman.jpg');
+}
+
+.average{
+	background: red;
+}
+input{
+	width: 100%;
+	background:green;
+	color:white;
+	border:none;
+	margin-top:5px;
+	height:20px;
+}
+input:focus{
+	background-color:red;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    white;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    white;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    white;
+}
+
+button{
+	height:50px;
+	width:200px;
+	border:none;
+	color:white;
+	font-size: 20px;
+	text-shadow: 2px 2px black;
+}
+.but{
+	margin-top:5px;
+	width:100%;
+	text-align: center;
+}
+
