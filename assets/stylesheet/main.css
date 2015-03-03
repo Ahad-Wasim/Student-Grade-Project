@@ -2,20 +2,72 @@ html{
 	background: url('http://images.cryhavok.org/d/14759-1/Black+Background+Wood+1+by+Freeman.jpg');
 }
 
+
 .average{
-	background: red;
+	background: #990000;
+	margin-top:10px;
 }
 input{
 	width: 100%;
-	background:green;
-	color:white;
+	background:#424262;
+	color:black;
 	border:none;
 	margin-top:5px;
 	height:20px;
 }
 input:focus{
-	background-color:red;
+	background-color:lavender;
+	color:black;
 }
+/*********************************/
+
+.spacing1 {
+	position:relative;
+	color:blue;	
+	left:9%;
+}
+
+.spacing2 {
+	position:relative;
+	color:purple;
+	left:12%;
+}
+
+.spacing3 {
+	position:relative;
+	color:red;
+	left:6%;
+}
+
+.spacing4 {
+	position:relative;
+	color:green;
+	left:3%;
+}
+
+
+.positon{
+	position:relative;
+}
+
+.delete{
+	display:inline-block;
+	height:50px;
+	width:150px;
+	border-radius:50%;
+	background:red;
+	margin-left:50px;          /*CHANGE THIS LATER ON */
+	cursor: pointer;
+	opacity:.7;
+}
+
+.delete:hover{
+	opacity:1;
+}
+/*********************************/
+
+
+
 ::-webkit-input-placeholder { /* WebKit browsers */
     color:    white;
 }
