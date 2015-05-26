@@ -1,48 +1,48 @@
 html{
-	background: url('http://images.cryhavok.org/d/14759-1/Black+Background+Wood+1+by+Freeman.jpg');
+	background: url('../images/mixed.jpg');
 }
 
 
 .average{
-	background: #990000;
+	display:inline-block;
+	color:white;
 	margin-top:10px;
 }
 input{
 	width: 100%;
-	background:#424262;
+	background:#fff;
 	color:black;
 	border:none;
 	margin-top:5px;
-	height:20px;
+	height:50px;
 }
 input:focus{
-	background-color:lavender;
+	background-color:#FFFEE7;
 	color:black;
 }
 /*********************************/
 
 .spacing1 {
 	position:relative;
-	color:blue;	
-	left:9%;
+	color:green;	
+	left:100px;
 }
 
 .spacing2 {
 	position:relative;
-	color:purple;
-	left:12%;
+	left:75px;
 }
 
 .spacing3 {
 	position:relative;
-	color:red;
-	left:6%;
+	color:blue;
+	left:50px;
 }
 
 .spacing4 {
 	position:relative;
-	color:green;
-	left:3%;
+	color:blue	;
+	left:25px;
 }
 
 
@@ -52,11 +52,14 @@ input:focus{
 
 .delete{
 	display:inline-block;
-	height:50px;
+	height: 25px;
 	width:150px;
-	border-radius:50%;
+	padding-top: 8px;
+	padding-bottom:30px;
+	border-radius:5px;
+	position:relative;
+	left:200px;
 	background:red;
-	margin-left:50px;          /*CHANGE THIS LATER ON */
 	cursor: pointer;
 	opacity:.7;
 }
@@ -69,18 +72,18 @@ input:focus{
 
 
 ::-webkit-input-placeholder { /* WebKit browsers */
-    color:    white;
+    color:    black;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    white;
+   color:    black;
    opacity:  1;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    white;
+   color:    black;
    opacity:  1;
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
-   color:    white;
+   color:    black;
 }
 
 button{
@@ -88,8 +91,10 @@ button{
 	width:200px;
 	border:none;
 	color:white;
+	background:#286090;
 	font-size: 20px;
-	text-shadow: 2px 2px black;
+	cursor: pointer;
+	margin-top:3%;
 }
 .but{
 	margin-top:5px;
